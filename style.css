@@ -6,3 +6,27 @@ body {
 	color: white;
 }
 
+h1 {
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.trigger,
+.tweet {
+    background-color: transparent;
+    border: solid #fff 1px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 60px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.tweet {    
+    text-decoration: none;
+    width: 400px;
+    display: block;
+    padding: 10px 0;
+    margin: 20px auto;
+}
